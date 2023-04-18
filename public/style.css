@@ -23,7 +23,7 @@ ul {
 /* header */
 
 header {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-align: center;
     width: 100%;
 }
@@ -67,6 +67,10 @@ header .top-info {
 
 .main-header {
     margin-top: 10px;
+}
+
+.header-btns {
+    margin-bottom: 20px;
 }
 
 .header-content {
@@ -142,6 +146,7 @@ header .top-info {
     margin-top: 10px;
     margin-top: 20px;
     transition: .3s ease-out all;
+    margin-bottom: 20px;
 }
 
 .contact-us-btn:hover {
